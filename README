@@ -1,7 +1,4 @@
-Name : 
-ID   : 
-
-## Procedure followed to solve the lab2 problem.
+### Procedure followed to solve the lab2 problem.
 
 Have done this assignment in ubuntu, so first of all, tried to install xv6 inside ubuntu
 So in command prompt:
@@ -103,7 +100,7 @@ From the output we can observe that higher ticket holder processes are taking mo
 Now to omit unnecessary file,runned this command in cmd:
 "sudo make clean"
 
-Major difficulties I have faced while solving this lab problem : 
+### Major difficulties I have faced while solving this lab problem : 
 
 while adding user function & system call, i had to modify in several files & it took much of my time to track & manage which file has been modified for which function. Also,errors like 'implicit function declaration' debugging was difficult. At the begining,how to fetch each process's status using pid pointer was also seemed difficult to me. And at first,i desgined my code will be interactive where user can assign priority & burst time to each processes,then my scheduler will do the lottery_schedule job. But not having 'input taking default functionalities in xv6' i had to struggle in planning & writing the code & i tried but couldn't implement dynamic priority to each process. Also,your mentioned 'yield()' seems ambiguous to me
 
