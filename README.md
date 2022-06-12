@@ -88,12 +88,12 @@ A sample test case for previous input is given below:
 ```
 ------------ Initially assigned Tickets = 5 ----------
 
-ProcessID	Runnable(0/1)		Tickets	    Ticks
+ProcessID	Runnable(0/1)	     	Tickets	     Ticks
 1		                1		        5		       2
 2		                1		        5		       2
-16		               1		        5		       0
-7		                1		        10		     72
-9		                1		        15		    127
+16		                1		        5		       0
+7		                1		        10		      72
+9		                1		        15		     127
 11		               1		        20		    151
 13		               1		        25		    185
 15		               1		        30		    229
